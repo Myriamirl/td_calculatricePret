@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url("C:\Users\taleb\OneDrive - EduServices\Bureau\td_calculatricePret\font\NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.ttf");
+}
+
+body {
+    font-family: 'Nunito Sans', arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 161px;
+    height: 56px;
+    margin: 50px;
+}
+
+main {
+    background-color: white;
+    border: 1px solid #234b68;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 5px 5px 0 #4B5563;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    line-height: 63.65px;
+    color: #234b68;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.block_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+label {
+    flex: 1;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #003366;
+}
+
+.block_input {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+input {
+    width: 550px;
+    height: 12px;
+    padding: 10px 10px 10px 15px;
+    border: 1px solid #d1d1d1;
+}
+
+.suffix {
+    position: absolute;
+    right: -3px;
+    width: 60px;
+    max-width: 100%;
+    font-size: 16px;
+    color: white;
+    background-color: #234b68; 
+    padding: 2px 6px; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    line-height: 2; 
+}
+
+#bouton {
+    background-color: #234b68;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#bouton:hover {
+    background-color: #002244;
+}

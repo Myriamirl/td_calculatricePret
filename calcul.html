@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calcul.css">
+    
+    <title> TD 1 : Calculatrice de prêt immobilier </title> 
+    
+</head>
+
+<body>
+    <header class="banniere">
+        <img src="img1.png" alt="logo" id="logo"/>
+    </header>
+    
+    <main>
+         <div id="conteneur">  
+            
+            <h1> Calculatrice de prêt immobilier </h1> 
+            
+            <form method="get" action="">
+                 
+                <div class="block_text">
+                    <label for="montant">Montant emprunté</label>
+                    <div class="block_input">
+                        <input type="text" name="montant" id="montant" placeholder="100 000" required>
+                        <span class="suffix">€</span>
+                    </div>
+                </div>
+
+                <div class="block_text">
+                    <label for="taux">Taux nominal</label>
+                    <div class="block_input">
+                        <input type="text" name="taux" id="taux" placeholder="1.2" required>
+                        <span class="suffix">%</span>
+                    </div>
+                </div>
+
+                <div class="block_text">
+                    <label for="duree">Durée de remboursement</label>
+                    <div class="block_input">
+                        <input type="text" name="duree" id="duree" placeholder="15" required>
+                        <span class="suffix">an(s)</span>
+                    </div>
+                </div>
+
+                <button type="submit" id="btn_submit">Calculer</button>
+                </form>
+            
+        </div>
+        
+        <script src="calcul.js"></script>
+    </main>
+    </body>
+</html>
