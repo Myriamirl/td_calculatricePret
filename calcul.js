@@ -8,11 +8,8 @@ btn_submit.addEventListener ("click", function(event) {
     // ici le traitement au click
 
     // récupération du contenu de l'input
-    const input = document.querySelector("#input");
-    console.group(input.value);
-
-    // on vérifie que la valeur ne soit pas vide
-    if(input.value !== "") {
-        // on colle la valeur dans le tableau
-    }
+    const inputMontant = document.querySelector("#montant");
+    const inputTaux = document.querySelector("#taux");
+    const inputDuree = document.querySelector("#duree");
     });
+    
